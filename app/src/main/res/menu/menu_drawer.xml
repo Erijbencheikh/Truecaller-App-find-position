@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <!--  Home button  -->
+        <item android:id="@+id/nav_home" android:title="Accueil" android:icon="@drawable/baseline_list_24"/>
+        <item android:id="@+id/nav_add" android:title="Ajouter un contact" android:icon="@drawable/baseline_person_add_24"/>
+        <item android:id="@+id/nav_positions" android:title="Liste des positions" android:icon="@drawable/baseline_map_24"/>
+        <item android:id="@+id/nav_save_position" android:title=" Position actuelle" android:icon="@drawable/baseline_save_24"/>
+    </group>
+    <group android:id="@+id/group_bottom">
+        <item android:id="@+id/nav_logout" android:title="Se déconnecter" android:icon="@drawable/baseline_logout_24"/>
+        <item android:id="@+id/nav_close" android:title="Fermer l'application" android:icon="@drawable/baseline_exit_to_app_24"/>
+    </group>
+</menu>

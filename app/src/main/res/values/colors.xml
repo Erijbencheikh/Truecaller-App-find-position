@@ -1,0 +1,28 @@
+<resources>
+    <color name="secondary_variant">#F50057</color>
+    <color name="error">#F44336</color>
+    <color name="background">#F8FAFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_background">#121212</color>
+    <color name="on_surface">#1E1E1E</color>
+    <color name="hint_text">#757575</color>
+    <color name="status_bar">#283593</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#6750A4</color>
+    <!--  Deep Purple  -->
+    <color name="primary_variant">#EADDFF</color>
+    <!--  Soft Lilac  -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#625B71</color>
+    <color name="background_tint">#F7F2FA</color>
+    <color name="text_dark">#1C1B1F</color>
+    <color name="text_grey">#49454F</color>
+    <color name="red_error">#B3261E</color>
+</resources>

@@ -1,0 +1,56 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:text="Modifier le contact"
+            android:textColor="@color/primary"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/ed_nom_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/abc_edit_text_material"
+            android:hint="Nom"
+            android:inputType="textPersonName"
+            android:paddingStart="4dp"
+            android:layout_marginBottom="12dp"/>
+        <EditText
+            android:id="@+id/ed_pseudo_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/abc_edit_text_material"
+            android:hint="Pseudo"
+            android:inputType="textPersonName"
+            android:paddingStart="4dp"
+            android:layout_marginBottom="12dp"/>
+        <EditText
+            android:id="@+id/ed_num_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/abc_edit_text_material"
+            android:hint="Numéro"
+            android:inputType="phone"
+            android:paddingStart="4dp"
+            android:layout_marginBottom="24dp"/>
+        <Button
+            android:id="@+id/btn_update_contact" style="@style/st_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mettre à jour"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

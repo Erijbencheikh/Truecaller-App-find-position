@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PRO EXIT ICON: Red X in Circle
+    Purpose: Close the entire application
+    Symbol: Universal "Close / Exit"
+    Color: Red (danger) – attracts attention
+    Author: [Your Name] – 02 Nov 2025
+-->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector_exit_x"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:autoMirrored="true">
+
+    <!-- Outer circle (border) -->
+    <path
+        android:name="circle"
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
+
+    <!-- X (cross) – bold and clear -->
+    <path
+        android:name="cross_left"
+        android:fillColor="#D32F2F"
+        android:pathData="M15.3,16.7l-3.3,-3.3 -3.3,3.3 -1.4,-1.4 3.3,-3.3 -3.3,-3.3 1.4,-1.4 3.3,3.3 3.3,-3.3 1.4,1.4 -3.3,3.3 3.3,3.3z" />
+
+</vector>

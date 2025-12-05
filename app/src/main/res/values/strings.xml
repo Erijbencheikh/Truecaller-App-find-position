@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gestion Contact</string>
+    <string name="open">Ouvrir le menu</string>
+    <string name="close">Fermer le menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
